@@ -44,7 +44,7 @@ plt.show()
 
 #   Histogram
 #   Plot the student distribution for each bmi level (#bins = 4)
-plt.hist(bmi, bins=[0, 18.5, 25, 30,max(bmi)])
+plt.hist(bmi, bins=4)
 plt.xticks([0, 18.5, 25, 30,max(bmi)])
 plt.show()
 
